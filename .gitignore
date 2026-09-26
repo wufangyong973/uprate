@@ -121,6 +121,7 @@ instance/
 docs/_build/
 
 # PyBuilder
+temp_auto_push.bat
 .pybuilder/
 target/
 
@@ -237,11 +238,11 @@ $RECYCLE.BIN/
 ### IDES ###
 # Use https://editorconfig.org/ instead if need arises in future.
 .vs/
-.vscode/
 .idea/
 
 # Dev compiled css files
 docs/source/_static/*.css*
 
 
-.venv*/
+.venv*/.gitignore
+branch_structure.json
